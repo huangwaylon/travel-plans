@@ -13,7 +13,7 @@ and **New Zealand 2027** (Feb 11–16, Auckland and Taranaki). Tap a book and th
 turns open; a back button returns to the shelf, and where the reader was is remembered across
 launches.
 
-Live: https://huangwaylon.github.io/seattle/ — still named `seattle` from the first trip, on purpose.
+Live: https://huangwaylon.github.io/travel-plans/ (the repo was `seattle` until it was renamed).
 
 ## Files
 
@@ -271,10 +271,11 @@ in the code and then confirmed on the phone.
 
 ## Deploying
 
-Remote `git@github.com:huangwaylon/seattle.git` (personal github.com, SSH). The local `gh` CLI is
-logged into Apple's internal GitHub — do **not** use it here. Commit and push to `main` (end commits
+Remote `git@github.com:huangwaylon/travel-plans.git` (personal github.com, SSH). `gh` is logged into both
+github.com (`huangwaylon`) and Apple's internal GitHub, so pass `GH_HOST=github.com` (or
+`-R huangwaylon/travel-plans`) — never let it default to the internal host. Commit and push to `main` (end commits
 with the `Co-Authored-By` trailer); Pages rebuilds in about a minute. Asset paths are relative, so
-the project site works under `/seattle/`.
+the project site works under `/travel-plans/`.
 
 **On iPhone:** open the live URL in Safari on Wi-Fi, let it load, Share → Add to Home Screen, then
 open once from the icon while online. After a `SHELL` bump an installed app shows the refresh banner

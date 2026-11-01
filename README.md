@@ -3,7 +3,7 @@
 A self-contained, offline-first **bookshelf of trip guide books**, built as an installable PWA for
 iPhone. Tap a book and it opens; close the app and it reopens where you left off.
 
-**Live:** https://huangwaylon.github.io/seattle/
+**Live:** https://huangwaylon.github.io/travel-plans/
 
 Three books:
 
